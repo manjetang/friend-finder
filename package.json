@@ -1,0 +1,29 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjetang/friend-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjetang/friend-finder/issues"
+  },
+  "homepage": "https://github.com/manjetang/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "module-not-found-error": "^1.0.1",
+    "package-json": "^5.0.0",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7",
+    "path-__dirname": "^2.1.0"
+  },
+  "devDependencies": {}
+}
