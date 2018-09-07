@@ -1,10 +1,10 @@
 {
   "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Helps you find the characters you are looking for",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,6 @@
     "package.json": "^2.0.1",
     "path": "^0.12.7",
     "path-__dirname": "^2.1.0"
-  },
-  
-  "scripts": {
-    "start": "node server.js"
   },
   "devDependencies": {}
 }
