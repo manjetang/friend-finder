@@ -6,13 +6,13 @@ var path = require("path");
 
 var app = express();
 var port = process.env.port || 3000;
-app.use(express.static("./public"));
+app.use(express.static("./app/public"));
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.text());
-app.use(express.static(__dirname + '/app/data/images'));
+// app.use(express.static(__dirname + '/app/data/images'));
 
 require("./app/routing/apiroutes") (app);
 require("./app/routing/htmlroutes") (app);
